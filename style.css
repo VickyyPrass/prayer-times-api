@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(135, 238, 204);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.title-nav {
+    font: 20px sans-serif;
+    padding: 20px 0;
+}
+
+.btn-search {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.box-prayer {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.time-area-prayer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    background-color: #dfdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
