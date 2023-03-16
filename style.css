@@ -15,12 +15,6 @@ body {
 
 .title-nav {
     font: 20px sans-serif;
-    padding: 20px 0;
-}
-
-.btn-search {
-    width: 100px;
-    border-radius: 10px;
 }
 
 .box-prayer {
@@ -31,20 +25,15 @@ body {
 }
 
 .time-area-prayer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    margin: auto;
 }
-
 .time {
-    background-color: #dfdcdc;
+    background-color: #f7f3f3;
+    border: 1px solid rgb(214, 209, 209);
+    height: 150px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    margin-top: 40px;
-    width: 150px;
     border-radius: 10px;
 }

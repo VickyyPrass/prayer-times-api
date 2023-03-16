@@ -15,50 +15,26 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="title-nav">Islamic Prayer Times</h1>
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="input-group mb-3">
-                        <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Cari kota kamu disini..."
-                        />
-                        <button class="btn btn-primary btn-search">Cari</button>
-                    </div>
-                </div>
-            </div>
             <div class="app">
                 <div class="box-prayer">
-                    <div class="title-prayer">
-                        <h4 class="">Lokasi kamu di Yogyakarta</h4>
+                    <h1 class="title-nav">Islamic Prayer Times</h1>
+                    <div class="title-area">
+                        <h4 class="title-prayer"></h4>
                     </div>
 
-                    <div class="time-area-prayer">
-                        <div class="time">
-                            <p class="fw-bold">Fajr</p>
-                            <p>04:25</p>
-                        </div>
-                        <div class="time">
-                            <p>Fajr</p>
-                            <p>04:25</p>
-                        </div>
-                        <div class="time">
-                            <p>Fajr</p>
-                            <p>04:25</p>
-                        </div>
-                        <div class="time">
-                            <p>Fajr</p>
-                            <p>04:25</p>
-                        </div>
-                        <div class="time">
-                            <p>Fajr</p>
-                            <p>04:25</p>
-                        </div>
-                        <div class="time">
-                            <p>Fajr</p>
-                            <p>04:25</p>
-                        </div>
+                    <div class="time-area-prayer text-center">
+                        <table
+                            class="table table-bordered table-info table-hover mt-3"
+                            style="width: 40%"
+                        >
+                            <thead>
+                                <tr>
+                                    <th scope="col">Waktu</th>
+                                    <th scope="col">Jam</th>
+                                </tr>
+                            </thead>
+                            <tbody class="data-prayer"></tbody>
+                        </table>
                     </div>
                 </div>
             </div>

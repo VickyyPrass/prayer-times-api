@@ -41,15 +41,29 @@ function renderDataPrayer(waktu) {
     const titleTime = document.querySelector(".title-prayer");
     let table = "";
 
-    for (let i in data) {
-        table += `
-        <tr>
-            <th scope="row">${i}</th>
-            <td>${data[i]}</td>
-        </tr>
-        `;
-    }
+    // for (let i in data) {
+    //     table += `
+    //     <tr>
+    //         <th scope="row">${i}</th>
+    //         <td>${data[i]}</td>
+    //     </tr>
+    //     `;
+    // }
 
-    tableBox.innerHTML = table;
+    for (let index = 0; index < 8; index++) {
+        console.log(index);
+    }
+    // tableBox.innerHTML = table;
     titleTime.innerHTML = `Waktu ibadah anda pada ${day} : `;
 }
+
+function showDataPrayer(e) {
+    return `
+    <div class="col">
+        <div class="time p-3">
+            <h4>Fajr</h4>
+            <p>04.25 (WIB)</p>
+        </div>
+    </div>`;
+}
+export { getDataPrayer };
